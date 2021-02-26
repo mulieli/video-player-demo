@@ -14,8 +14,7 @@ class _VideoCheckState extends State<VideoCheck> {
     super.initState();
 
     /// Need an mp4 address
-    _playerController = VideoPlayerController.network(
-        "http://image.tlpara.cn/dev/video/56e05a475ea14092821a6ff8df28464b.mp4")
+    _playerController = VideoPlayerController.network("")
       ..initialize().then((_) {
         setState(() {});
       });
