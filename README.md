@@ -1,6 +1,7 @@
 # videoPlayer
 
 A new Flutter project.
+Video IOS simulator black screen demo
 
 ## Getting Started
 
